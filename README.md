@@ -114,7 +114,7 @@ npm run dev
 npm start
 ```
 
-Backend runs at: **http://localhost:5000**
+
 
 ### 3. Frontend Setup
 
@@ -130,7 +130,7 @@ npm install
 npm start
 ```
 
-Frontend runs at: **http://localhost:3000**
+
 
 > The React app proxies `/api` requests to `http://localhost:5000` automatically via the `"proxy"` field in `package.json`.
 
