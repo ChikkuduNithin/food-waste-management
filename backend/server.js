@@ -17,7 +17,11 @@ const app = express();
 
 // ─── Middleware ────────────────────────────────────────────────
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://127.0.0.1:3000'],
+  origin: [
+    'http://localhost:3000',
+    'http://127.0.0.1:3000',
+    'https://food-waste-management-frontend.onrender.com'
+  ],
   credentials: true,
 }));
 app.use(express.json({ limit: '10mb' }));
