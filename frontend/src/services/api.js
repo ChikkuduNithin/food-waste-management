@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://food-waste-management-r6o5.onrender.com/api',
   headers: { 'Content-Type': 'application/json' },
 });
 
